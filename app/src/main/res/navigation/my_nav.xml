@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomNavigationView"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/loginPage"
+        android:name="com.example.mates.LoginPage"
+        android:label="fragment_login_page"
+        tools:layout="@layout/fragment_login_page" />
+    <fragment
+        android:id="@+id/createJoinRoomPage"
+        android:name="com.example.mates.CreateJoinRoomPage"
+        android:label="fragment_create_join_room_page"
+        tools:layout="@layout/fragment_create_join_room_page" />
+    <fragment
+        android:id="@+id/paymentPage"
+        android:name="com.example.mates.PaymentPage"
+        android:label="fragment_payment_page"
+        tools:layout="@layout/fragment_payment_page" />
+    <fragment
+        android:id="@+id/foodTrackerGroceryListPage"
+        android:name="com.example.mates.FoodTrackerGroceryListPage"
+        android:label="fragment_food_tracker_grocery_list_page"
+        tools:layout="@layout/fragment_food_tracker_grocery_list_page" />
+    <fragment
+        android:id="@+id/calendarNoticeBoardPage"
+        android:name="com.example.mates.CalendarNoticeBoardPage"
+        android:label="fragment_calendar_notice_board_page"
+        tools:layout="@layout/fragment_calendar_notice_board_page" />
+    <fragment
+        android:id="@+id/signupPage"
+        android:name="com.example.mates.SignupPage"
+        android:label="fragment_signup_page"
+        tools:layout="@layout/fragment_signup_page" />
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.mates.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" />
+</navigation>
