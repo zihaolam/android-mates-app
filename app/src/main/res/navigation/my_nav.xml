@@ -10,6 +10,7 @@
         android:name="com.example.mates.LoginPage"
         android:label="fragment_login_page"
         tools:layout="@layout/fragment_login_page" />
+
     <fragment
         android:id="@+id/createJoinRoomPage"
         android:name="com.example.mates.CreateJoinRoomPage"
@@ -40,4 +41,9 @@
         android:name="com.example.mates.HomePage"
         android:label="fragment_home_page"
         tools:layout="@layout/fragment_home_page" />
+    <fragment
+        android:id="@+id/todoPage"
+        android:name="com.example.mates.TodoPage"
+        android:label="fragment_todo_page"
+        tools:layout="@layout/fragment_todo_page" />
 </navigation>

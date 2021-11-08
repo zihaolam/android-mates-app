@@ -2,6 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:title="Home" android:icon="@drawable/ic_home" android:id="@+id/homePage"/>
+    <item android:title="Todo" android:icon="@drawable/ic_notice" android:id="@+id/todoPage"/>
     <item android:title="Calendar" android:icon="@drawable/ic_calendar" android:id="@+id/calendarNoticeBoardPage" />
     <item android:title="Grocery" android:icon="@drawable/ic_kitchen" android:id="@+id/foodTrackerGroceryListPage"/>
     <item android:title="Payment" android:icon="@drawable/ic_payment" android:id="@+id/paymentPage"/>
